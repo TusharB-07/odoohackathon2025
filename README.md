@@ -1,6 +1,9 @@
 # 👚 ReWear – Community Clothing Exchange
 
-Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-loved clothes a second life. Built for the [Odoo Hackathon '25](https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc), ReWear allows users to share, browse, and swap clothes in a conscious and eco-friendly way.
+🔗 **Live Website**: [https://rewear01.vercel.app](https://rewear01.vercel.app)
+
+Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-loved clothes a second life.  
+This project was built as part of **Odoo Hackathon '25**, with the goal of encouraging circular fashion through community swapping.
 
 ---
 
@@ -8,6 +11,7 @@ Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-lo
 
 - 🚀 [**Visit ReWear Website**](https://rewear01.vercel.app)
 - 📄 [About the Project](https://rewear01.vercel.app/about)
+
 ---
 
 ## 🚀 Features
@@ -37,7 +41,7 @@ Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-lo
 
 ## 🧑‍💻 Getting Started (Local Development)
 
-> Requires: Node.js (recommend using via [nvm](https://github.com/nvm-sh/nvm))
+> Requires: Node.js (we recommend using it via [nvm](https://github.com/nvm-sh/nvm))
 
 ```bash
 # Step 1: Clone the repository
