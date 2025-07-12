@@ -12,7 +12,7 @@ It empowers users to donate, borrow, and exchange garments, promoting sustainabi
 | Name               | Email                        |
 |--------------------|------------------------------|
 | Tushar Biswas      | tb9603@srmist.edu.in         |
-| Azam Alib          | aa1721@srmist.edu.in         |
+| Azam Ali           | aa1721@srmist.edu.in         |
 | Karthik Valmiki    | kv6640@srmist.edu.in         |
 | Ayandip Giri       | ag0111@srmist.edu.in         |
 
