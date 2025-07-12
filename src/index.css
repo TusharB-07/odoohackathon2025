@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ReWear Design System - Warm, Eco-friendly, Cozy Palette */
+
+@layer base {
+  :root {
+    /* Base colors - warm and natural */
+    --background: 30 15% 97%;
+    --foreground: 20 8% 25%;
+
+    /* Card and surfaces */
+    --card: 35 20% 98%;
+    --card-foreground: 20 8% 25%;
+
+    --popover: 35 20% 98%;
+    --popover-foreground: 20 8% 25%;
+
+    /* Primary - warm mint green */
+    --primary: 150 30% 45%;
+    --primary-foreground: 150 30% 98%;
+    --primary-light: 150 40% 85%;
+    --primary-glow: 150 60% 70%;
+
+    /* Secondary - soft beige */
+    --secondary: 35 25% 90%;
+    --secondary-foreground: 20 8% 30%;
+
+    /* Accent - blush pink */
+    --accent: 340 30% 85%;
+    --accent-foreground: 340 30% 25%;
+    --accent-warm: 25 35% 88%;
+
+    /* Muted tones */
+    --muted: 30 20% 94%;
+    --muted-foreground: 20 6% 50%;
+
+    /* Eco-friendly colors */
+    --sage: 120 25% 75%;
+    --earth: 25 30% 70%;
+    --leaf: 140 40% 60%;
+
+    /* Utility colors */
+    --destructive: 0 65% 65%;
+    --destructive-foreground: 0 0% 98%;
+    --warning: 45 90% 60%;
+    --success: 150 50% 50%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 92%;
+    --ring: 150 30% 45%;
+
+    /* Border radius - more rounded for cozy feel */
+    --radius: 1rem;
+    --radius-sm: 0.75rem;
+    --radius-lg: 1.5rem;
+
+    /* Gradients for cozy aesthetics */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-warm: linear-gradient(135deg, hsl(var(--accent-warm)), hsl(var(--secondary)));
+    --gradient-eco: linear-gradient(135deg, hsl(var(--sage)), hsl(var(--leaf)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-light)), hsl(var(--accent)) 50%, hsl(var(--accent-warm)));
+
+    /* Shadows for depth */
+    --shadow-soft: 0 4px 20px -2px hsl(var(--primary) / 0.1);
+    --shadow-warm: 0 8px 30px -8px hsl(var(--accent) / 0.2);
+    --shadow-card: 0 2px 15px -3px hsl(var(--foreground) / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+    font-feature-settings: 'cv11', 'ss01';
+  }
+}
+
+@layer components {
+  /* Button variants for eco-friendly design */
+  .btn-eco {
+    @apply bg-gradient-to-r from-sage to-leaf text-white rounded-xl px-6 py-3 font-medium;
+    @apply hover:shadow-lg transform hover:scale-105 transition-all duration-300;
+  }
+  
+  .btn-warm {
+    @apply bg-gradient-to-r from-accent-warm to-secondary text-accent-foreground rounded-xl px-6 py-3 font-medium;
+    @apply hover:shadow-warm transform hover:scale-105 transition-all duration-300;
+  }
+
+  /* Card styles */
+  .card-cozy {
+    @apply bg-card rounded-xl shadow-card border border-border/50;
+    @apply hover:shadow-warm transition-all duration-300;
+  }
+
+  /* Input styles */
+  .input-cozy {
+    @apply bg-input border-border rounded-lg px-4 py-3 text-foreground;
+    @apply focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all duration-200;
+  }
+
+  /* Animation utilities */
+  .animate-gentle {
+    animation: gentleBounce 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .hover-lift {
+    @apply transform transition-all duration-300 hover:scale-105 hover:shadow-soft;
+  }
+}
+
+@keyframes gentleBounce {
+  0% { transform: translateY(10px); opacity: 0; }
+  50% { transform: translateY(-5px); opacity: 0.8; }
+  100% { transform: translateY(0); opacity: 1; }
+}
