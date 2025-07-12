@@ -1,5 +1,5 @@
 # ReWear – Community Clothing Exchange 
-
+🔗 **Live Website**: [https://rewear01.vercel.app](https://rewear01.vercel.app)
 ## 👥 Team Members
 
 | Name               | Email                        |
@@ -14,8 +14,6 @@
 
 
 # 👚 ReWear – Community Clothing Exchange
-
-🔗 **Live Website**: [https://rewear01.vercel.app](https://rewear01.vercel.app)
 
 Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-loved clothes a second life.  
 This project was built as part of **Odoo Hackathon '25**, with the goal of encouraging circular fashion through community swapping.
