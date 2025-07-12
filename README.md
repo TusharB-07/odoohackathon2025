@@ -8,8 +8,6 @@ Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-lo
 
 - 🚀 [**Visit ReWear Website**](https://rewear01.vercel.app)
 - 📄 [About the Project](https://rewear01.vercel.app/about)
-- 💡 [Edit on Nova](https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc)
-
 ---
 
 ## 🚀 Features
