@@ -1,73 +1,55 @@
-# Welcome to your Nova project
+# 👚 ReWear – Community Clothing Exchange
 
-## Project info
+Welcome to **ReWear**, a sustainable fashion swapping platform that gives pre-loved clothes a second life. Built for the [Odoo Hackathon '25](https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc), ReWear allows users to share, browse, and swap clothes in a conscious and eco-friendly way.
 
-**URL**: https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc
+---
 
-## How can I edit this code?
+## 🌐 Live Project
 
-There are several ways of editing your application.
+- 🚀 [**Visit ReWear Website**](https://rewear01.vercel.app)
+- 📄 [About the Project](https://rewear01.vercel.app/about)
+- 💡 [Edit on Nova](https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc)
 
-**Use Nova**
+---
 
-Simply visit the [Nova Project](https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc) and start prompting.
+## 🚀 Features
 
-Changes made via Nova will be committed automatically to this repo.
+- 🌟 **Featured Items** carousel with ratings, points, and swap options  
+- 🔎 **Browse Items** page with pre-loved product listings  
+- 👤 **User Dashboard** for managing listings and purchases  
+- 🧵 **Product Detail Page** with availability, condition, and descriptions  
+- 🛠️ **Admin Panel** for managing users, orders, and listings  
+- 📱 Responsive UI built with Tailwind CSS and shadcn/ui  
+- 🔐 Auth-ready header with Sign In/Register  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Nova.
+## 🛠 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Tool            | Description                       |
+|-----------------|-----------------------------------|
+| ⚡ Vite          | Lightning-fast dev environment    |
+| ⚛️ React         | UI framework                      |
+| 🛡 TypeScript    | Type-safe development             |
+| 🎨 Tailwind CSS  | Utility-first CSS framework       |
+| 🌱 shadcn/ui     | Beautiful, accessible components  |
+| 📦 Lucide Icons | Icon library used in UI           |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🧑‍💻 Getting Started (Local Development)
+
+> Requires: Node.js (recommend using via [nvm](https://github.com/nvm-sh/nvm))
+
+```bash
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Nova](https://nova.dev/projects/04b1345c-dfc7-44f7-8f87-69d9ee5722bc) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Nova project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.nova.dev/tips-tricks/custom-domain#step-by-step-guide)
