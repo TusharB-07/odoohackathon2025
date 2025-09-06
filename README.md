@@ -1,4 +1,4 @@
-# ReWear – Community Clothing Exchange 
+# ReWear – Community Clothing Exchange ...
 🔗 **Live Website**: [https://rewear01.vercel.app](https://rewear01.vercel.app)
 ## 👥 Team Members
 
